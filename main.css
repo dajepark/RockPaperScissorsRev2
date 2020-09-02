@@ -1,0 +1,85 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color:pink;
+}
+
+.banner {
+    font-size:80px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left:29%;
+    padding-top:50px;
+}
+
+.explanation {
+    padding-left:46%;
+    padding-top:25px;
+    padding-bottom:0px;
+}
+
+table {
+    border:solid black;
+    font-size:50px;
+    width:80%;
+    background-color:white;
+}
+
+button {
+    height:50px;
+    width:264px;
+    font-family: 'Open Sans', sans-serif;
+    background-color:white;
+    border:solid 1px black;
+}
+
+.playbuttoncontainer {
+    padding-left:29.1%;
+    margin-top:5px;
+}
+
+.playbutton {
+    width:800px;
+    font-size:30px;
+}
+
+.buttons {
+    padding-left:29.1%;
+    padding-top:10px;
+}
+
+.results {
+    padding-left:29.1%;
+    padding-top:10px;
+}
+
+#baton {
+    font-size:30px;
+}
+
+#announcement {
+    width:800px;
+    height:200px;
+    border:solid 1px black;
+    font-size:100px;
+    text-align:center;
+    padding-top:60px;
+    background-color:white;
+}
+
+button:active {
+    transform:scale(1.01);
+}
+
+.trprim {
+    border:solid 1px black;
+}
+
+td {
+    padding:20px;
+    text-align:center;
+}
+
+.scoreBoard {
+    width:1000px;
+    padding-left:29.1%;
+    margin-top:3%;
+}

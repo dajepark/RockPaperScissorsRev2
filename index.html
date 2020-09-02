@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link href='reset.css' rel='stylesheet' type='text/css'>
+        <link href='main.css' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> 
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <div>
+            <h1 class='banner'>Rock Paper Scissors!</h1>
+            <h2 class='explanation'>Play Until Round 10!</h2>
+        </div>
+        <div class='scoreBoard'>
+            <table>
+                <tr class='trprim'>
+                    <td>Round Number</td>
+                    <td id='roundNumber'>0</td>
+                </tr>
+                <tr>
+                    <td>Player Score!</td>
+                    <td>AI Score!</td>
+                </tr>
+                <tr>
+                    <td id='playerScore'>0</td>
+                    <td id='aiScore'>0</td>
+                </tr>
+            </table>
+        </div>
+        <div class='buttons'>
+            <button type=button id='baton' onclick='playerPlay(this)' class=rock>Rock</button>
+            <button type=button id='baton' onclick='playerPlay(this)' class=paper>Paper</button>
+            <button type=button id='baton' onclick='playerPlay(this)' class=scissor>Scissor</button>
+        </div>
+        <div class='playbuttoncontainer'>
+            <button type=button class='playbutton'>Restart</button>
+        </div>
+        <div class='results'>
+            <h1 id='announcement'>Results!</h1>
+        </div>
+        <script src='main.js'></script>
+    </body>
+</html>
